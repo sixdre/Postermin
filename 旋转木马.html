@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旋转木马幻灯片</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/poster.js"></script>
+
+</head>
+<body style="padding:50px;">
+<!--demo-->
+<div class="Poster poster-main">
+    <div class="poster-btn poster-prev-btn" style="url(btn_l.png) no-repeat center center"></div>
+    <ul class="poster-list">
+        <li class="poster-item"><a href="#"><img src="img/1.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/2.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/3.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/4.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/6.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/4.jpg"></a></li>
+        <li class="poster-item"><a href="#"><img src="img/5.jpg"></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn" style="background:url(img/btn_r.png) no-repeat center center"></div>
+</div>
+<p style="height:50px;"></p>
+
+<script>
+
+$('.Poster').poster()
+</script>
+</body>
+</html>
